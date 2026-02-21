@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 import { useFadeIn } from "./hooks/useFadeIn";
 
 export default function App() {
@@ -13,6 +14,8 @@ export default function App() {
 
     return (
         <>
+            <CustomCursor />
+
             {/* Animated starfield background */}
             <div className="starfield" aria-hidden="true">
                 <div className="layer layer-1" />
