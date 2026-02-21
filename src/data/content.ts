@@ -17,9 +17,9 @@ export interface Experience {
     description: string;
 }
 
-export interface SkillGroup {
-    category: string;
-    items: string[];
+export interface GalleryImage {
+    src: string;
+    caption: string;
 }
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -40,25 +40,25 @@ export const profile = {
 
 export const experiences: Experience[] = [
     {
-        role: "Organizer & Lead Developer",
+        role: "Organizer & Developer",
         organization: "HammerHacks",
         period: "Aug 2025 – Present",
         description:
-            "Led development of the official 2026 website for Hamilton's largest high school hackathon, coordinating with fellow organizers while integrating user feedback.",
+            "Leading development of the official 2026 website for Hamilton's largest high school hackathon, coordinating with fellow organizers while integrating user feedback.",
     },
     {
-        role: "President & Team Leader",
+        role: "President & Software Lead",
         organization: "Westmount Robotics Club",
         period: "Nov 2024 – Present",
         description:
-            "Founded high-school robotics club and led a team of students in FTC robotics, managing club operations while tutoring members in Java-based control systems.",
+            "Founded high-school robotics club and led a team of 10+ students in FTC robotics, managing club operations while tutoring members in Java-based control systems.",
     },
     {
-        role: "Leader in Training",
-        organization: "McMaster University",
-        period: "Jun 2025 – Jul 2025",
+        role: "Director of Operations",
+        organization: "Hamilton Code for Change",
+        period: "May 2025 – Present",
         description:
-            "Guided elementary students through hands-on workshops in computer-aided design, soldering, and circuit building.",
+            "Leading operations for a non-profit organization focusing on using technology to solve community problems.",
     },
 ];
 
@@ -87,21 +87,18 @@ export const projects: Project[] = [
     },
 ];
 
-export const skills: SkillGroup[] = [
-    {
-        category: "Languages & Frameworks",
-        items: ["C/C++", "C#", "Python", "Java", "JavaScript", "Dart", "HTML/CSS"],
-    },
-    {
-        category: "Software & Tools",
-        items: ["Flutter", "AWS (S3, Lambda)", "Firebase", "REST API", "Godot", "Git/GitHub", "Tailwind CSS"],
-    },
+// ─── Gallery ──────────────────────────────────────────────────────────────────
+// Add your photos to public/gallery/ and register them here.
+
+export const galleryImages: GalleryImage[] = [
+    { src: "/gallery/undercity.jpg", caption: "Hack Club's Undercity hackathon at GitHub HQ, San Francisco" },
+    { src: "/gallery/hammerhacks.jpg", caption: "Achieving Top 3 at HammerHacks" }
 ];
 
 export const navLinks = [
     { label: "About", href: "#about" },
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
-    { label: "Skills", href: "#skills" },
+    { label: "Gallery", href: "#gallery" },
     { label: "Contact", href: "#contact" },
 ];
