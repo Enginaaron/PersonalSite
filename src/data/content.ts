@@ -30,11 +30,11 @@ export const profile = {
     location: "Hamilton, ON, CA",
     email: "aarondam@hotmail.com",
     phone: "+1 (905) 519-8958",
-    bio: "An aspiring engineer with a background in approaching STEM subjects creatively. Demonstrated ability to lead collaborative projects, foster relationships with peers, and build polished products under time constraints.",
+    bio: "Hey there, I'm Aaron! I'm a high school student with a passion for software development and building things. So yeah, I'm a bit of a nerd, but in a good way! I love building cool projects, learning new things, and meeting new people. Feel free to reach out if you want to build something together, or just want to chat about anything!",
     resumeUrl: "/AaronDam.pdf",
     socials: {
-        github: "https://github.com/aarondam",
-        linkedin: "https://linkedin.com/in/aarondam",
+        github: "https://github.com/Enginaaron",
+        linkedin: "https://www.linkedin.com/in/aaron-dam-a798512a5/",
     },
 };
 
