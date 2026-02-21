@@ -93,6 +93,10 @@ export const projects: Project[] = [
 export const galleryImages: GalleryImage[] = [
     { src: "/gallery/undercity.jpg", caption: "Hack Club's Undercity hackathon at GitHub HQ, San Francisco" },
     { src: "/gallery/hammerhacks.jpg", caption: "Achieving Top 3 at HammerHacks" }
+    { src: "/gallery/cnlc.jpg", caption: "Achieving National Runner-Up at CNLC 2025" },
+    { src: "/gallery/hackthenorth.jpg", caption: "Late night coding at Hack the North 2025" },
+    { src: "/gallery/goldengatebridge.jpg", caption: "Posing at the Golden Gate Bridge in San Francisco" },
+    { src: "/gallery/bund.jpg", caption: "Sunrise at the Bund in Shanghai, China" },
 ];
 
 export const navLinks = [
