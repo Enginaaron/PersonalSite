@@ -24,7 +24,7 @@ export default function About() {
                                 className="block text-[10px] uppercase tracking-[0.2em] text-[var(--color-magenta)] mb-1"
                                 style={{ fontFamily: "var(--font-pixel)" }}
                             >
-                                LOC
+                                LOCATION
                             </span>
                             <span className="text-[var(--color-star-dim)]">{profile.location}</span>
                         </div>
