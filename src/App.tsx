@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
+import ConstellationMap from "./components/ConstellationMap";
 import { useFadeIn } from "./hooks/useFadeIn";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <div className="starfield" aria-hidden="true">
                 <div className="layer layer-1" />
                 <div className="layer layer-2" />
+                <ConstellationMap />
             </div>
 
             <Navbar />
