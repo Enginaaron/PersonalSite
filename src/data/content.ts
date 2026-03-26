@@ -96,7 +96,7 @@ export const galleryImages: GalleryImage[] = [
     { src: "/gallery/cnlc.JPG", caption: "Achieving National Runner-Up at CNLC 2025" },
     { src: "/gallery/hackthenorth.JPG", caption: "Attending Hack the North 2025" },
     { src: "/gallery/goldengatebridge.JPG", caption: "Posing at the Golden Gate Bridge in San Francisco" },
-    { src: "/gallery/bund.JPG", caption: "Sunrise at the Bund in Shanghai, China" },
+    { src: "/gallery/juice.JPG", caption: "Hack Club's Juice Jam at AI Hacker House in Shanghai" },
 ];
 
 export const navLinks = [
